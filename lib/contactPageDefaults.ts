@@ -2,7 +2,6 @@ import { GhostPostOrPage } from "./ghost"
 
 export interface ContactPage extends GhostPostOrPage {
   form_topics: string[]
-  serviceConfig: ServiceConfig
 }
 
 export const defaultPage: ContactPage = {
