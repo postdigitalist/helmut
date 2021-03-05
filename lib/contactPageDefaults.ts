@@ -1,5 +1,4 @@
 import { GhostPostOrPage } from "./ghost"
-import { ServiceConfig } from '@components/contact/ContactForm'
 
 export interface ContactPage extends GhostPostOrPage {
   form_topics: string[]
