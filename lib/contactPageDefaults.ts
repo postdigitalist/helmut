@@ -14,10 +14,6 @@ export const defaultPage: ContactPage = {
   meta_title: 'Contact Us',
   meta_description: 'A contact form page.',
   html: '',
-  serviceConfig: {
-    url: '/api/v1/contact',
-    contentType: 'application/json',
-  },
   featureImage: {
     url: 'https://static.gotsby.org/v1/assets/images/gatsby-ghost-contact.png',
     dimensions: {
