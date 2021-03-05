@@ -79,8 +79,8 @@ export const Layout = ({ settings, header, children, isHome, sticky, previewPost
                   Twitter
                 </a>
               )}
-              <a href="https://www.nadarespetable.com" target="_blank">
-                Nada Respetable
+              <a href="https://www.are.na/helmut-sander" target="_blank">
+                Are.na
               </a>
             </nav>
           </div>

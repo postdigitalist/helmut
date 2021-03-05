@@ -7,7 +7,6 @@ import { HeaderPage } from '@components/HeaderPage'
 import { Layout } from '@components/Layout'
 import { PostCard } from '@components/PostCard'
 
-import { ServiceConfig, ContactForm } from '@components/contact/ContactForm'
 import { PostClass } from '@helpers/PostClass'
 import { SEO } from '@meta/seo'
 
@@ -16,7 +15,6 @@ import { ISeoImage } from '@meta/seoImage'
 
 interface ContactPage extends GhostPostOrPage {
   form_topics: string[]
-  serviceConfig: ServiceConfig
 }
 
 interface PageProps {
@@ -94,9 +92,7 @@ export function Contact({ cmsData }: PageProps) {
 
             <section className="post-full-content">
 
-              <div className="post-content">
-                <ContactForm topics={page.form_topics} serviceConfig={page.serviceConfig} />
-              </div>
+           
 
               <div className="post-content" dangerouslySetInnerHTML={{ __html: page.html || '' }}>
                 {/* <RenderContent htmlAst={htmlAst} /> */}

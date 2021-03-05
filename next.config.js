@@ -7,6 +7,7 @@ module.exports = withBundleAnalyzer({
   images: {
     deviceSizes: [320, 500, 680, 1040, 2080, 2048, 3120],
     domains: [
+      'static.gotsby.org',
       'res.cloudinary.com',
       'res-1.cloudinary.com',
       'res-2.cloudinary.com',
