@@ -2463,7 +2463,7 @@ html.casper .error-link {
 
 
 /* 10. Subscribe Message and Overlay
-/* ---------------------------------------------------------- */
+
 
 html.casper .subscribe-notification {
     position: fixed;
@@ -2695,7 +2695,7 @@ html.casper .subscribe-overlay .loading .button-loader {
         margin: 12px 0 0;
     }
 }
-
+-- */
 
 /* 11. Site Footer
 /* ---------------------------------------------------------- */
@@ -2707,6 +2707,13 @@ html.casper .site-footer {
     color: color-mod(var(--darkgrey) l(-5%));
 }
 
+.SubscriptionBox{
+    background:white;
+    width: 100%;
+    height: 320px;
+margin: 0 auto;
+display: block;
+}
 html.casper .site-footer-content {
     display: flex;
     flex-wrap: wrap;
@@ -2716,7 +2723,7 @@ html.casper .site-footer-content {
 }
 
 html.casper .site-footer-content a {
-    color: w
+    color: black;
 }
 
 html.casper .site-footer-content a:hover {

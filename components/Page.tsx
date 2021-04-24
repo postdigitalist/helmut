@@ -78,6 +78,7 @@ export const Page = ({ cmsData }: PageProps) => {
               </div>
             </section>
           </article>
+          <iframe src="https://jillang.substack.com/embed" className="SubscriptionBox" frameBorder={0} scrolling="no" ></iframe>
         </div>
       </Layout>
     </>

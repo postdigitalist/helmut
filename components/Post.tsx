@@ -152,6 +152,7 @@ export const Post = ({ cmsData }: PostProps) => {
 
                 {commenting.system === 'disqus' && <DisqusComments {...{ post, shortname: commenting.disqusShortname }} />}
               </article>
+              <iframe src="https://jillang.substack.com/embed" className="SubscriptionBox" frameBorder={0} scrolling="no" ></iframe>
             </div>
           </Layout>
         )}
