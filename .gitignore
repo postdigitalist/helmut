@@ -9,6 +9,10 @@
 /coverage
 /compare
 
+# next.js
+/.next/
+/out/
+
 # production
 /build
 
@@ -30,6 +34,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# post build
+/public/*.xml
+/public/images
 
 # cache
 /.cache
